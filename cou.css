@@ -1,0 +1,41 @@
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.card {
+  cursor: pointer;
+  border-radius: 10px;
+  margin: auto;
+  background-image: url("https://acegif.com/wp-content/gif/outerspace-58.gif");
+  background-size: cover;
+  color: silver;
+}
+
+.flag {
+  height: 160px;
+  margin: 10px;
+  border: solid black;
+}
+body {
+  background-image: url("https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: 100%;
+}
+
+h1 {
+  color: aliceblue;
+  text-align: center;
+}
+
+#btn {
+  position: relative;
+  left: 640px;
+}
+
+#b1,
+#b2 {
+  background-color: slateblue;
+}
